@@ -1,0 +1,7 @@
+tensorflow
+tensorflow_hub
+scikit-learn
+streamlit
+cv2
+matplotlib
+numpy
