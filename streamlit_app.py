@@ -51,23 +51,25 @@ def main():
 
 
     # open camera
-    '''
-    run = st.checkbox('Open camera')
-    FRAME_WINDOW = st.image([])
-    camera = cv.VideoCapture(0)
-    
-    if not run:
-        st.warning('Toggle the checkbox to open/close camera.')
+    #'''
+    #run = st.checkbox('Open camera')
+    #FRAME_WINDOW = st.image([])
+    #camera = cv.VideoCapture(0)
+    #
+    #if not run:
+    #    st.warning('Toggle the checkbox to open/close camera.')
+    #else:
+    #    _, frame = camera.read()
 
-    # take a picture
-    if st.button('Take a picture'):
-        _, frame = camera.read()
-        image = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
-        FRAME_WINDOW.image(image)
-        run = False
-        prediction = predict(image)
-        st.success(f'The flower is a {prediction}.')
-    '''
+    ## take a picture
+    #if st.button('Take a picture'):
+    #    _, frame = camera.read()
+    #    image = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
+    #    FRAME_WINDOW.image(image)
+    #    run = False
+    #    prediction = predict(image)
+    #    st.success(f'The flower is a {prediction}.')
+    #'''
 
 if __name__ == "__main__":
     main()
