@@ -49,10 +49,15 @@ def main():
     else:
         st.info('Please upload an image or take a picture')
 
+
     # open camera
+    '''
     run = st.checkbox('Open camera')
     FRAME_WINDOW = st.image([])
     camera = cv.VideoCapture(0)
+    
+    if not run:
+        st.warning('Toggle the checkbox to open/close camera.')
 
     # take a picture
     if st.button('Take a picture'):
@@ -62,15 +67,7 @@ def main():
         run = False
         prediction = predict(image)
         st.success(f'The flower is a {prediction}.')
-    
-    if not run:
-        st.warning('Toggle the checkbox to open/close camera.')
-
-    # display camera feed
-    while run:
-        _, image = camera.read()
-        FRAME_WINDOW.image(image)
-    
+    '''
 
 if __name__ == "__main__":
     main()
