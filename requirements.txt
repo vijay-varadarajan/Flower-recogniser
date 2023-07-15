@@ -1,7 +1,6 @@
-tensorflow
 tensorflow_hub
 scikit-learn
 streamlit
-cv2
-matplotlib
+opencv-contrib-python
+pillow
 numpy
