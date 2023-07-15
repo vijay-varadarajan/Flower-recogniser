@@ -13,6 +13,8 @@ model = load_model('trained_model.keras', custom_objects={'KerasLayer': hub.Kera
 def predict(path):
     image = cv.imread(path)
 
+    print(type(image))
+
     image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
     image = cv.resize(image, (224, 224), interpolation=cv.INTER_CUBIC)
     image = image.astype('float32')
