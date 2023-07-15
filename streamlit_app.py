@@ -69,7 +69,6 @@ def main():
     # display camera feed
     while run:
         _, frame = camera.read()
-        image = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
         FRAME_WINDOW.image(image)
     
 
