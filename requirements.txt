@@ -4,3 +4,4 @@ streamlit
 opencv-contrib-python
 pillow
 numpy
+tensorflow
