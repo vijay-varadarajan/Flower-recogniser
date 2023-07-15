@@ -68,7 +68,7 @@ def main():
 
     # display camera feed
     while run:
-        _, frame = camera.read()
+        _, image = camera.read()
         FRAME_WINDOW.image(image)
     
 
