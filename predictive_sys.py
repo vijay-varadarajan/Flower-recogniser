@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from tensorflow.keras.models import load_model
 import tensorflow_hub as hub
+import PIL as Image
 import warnings
 
 # disable warnings

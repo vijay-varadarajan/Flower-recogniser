@@ -5,4 +5,4 @@ opencv-contrib-python
 pillow
 numpy
 tensorflow
-opencv-python
+opencv-python-headless
