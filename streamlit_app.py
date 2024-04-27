@@ -10,7 +10,7 @@ import io
 # disable warnings
 warnings.filterwarnings('ignore')
 
-model = load_model('./trained_model.keras', custom_objects={'KerasLayer': hub.KerasLayer})
+model = load_model('trained_model.keras', custom_objects={'KerasLayer': hub.KerasLayer})
 
 def predict(image):
     
